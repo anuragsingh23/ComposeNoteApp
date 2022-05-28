@@ -7,7 +7,7 @@ import com.example.composenoteapp.ui.theme.*
 
 @Entity
 data class Note(
-     val note : String,
+     val title : String,
      val content :String,
      val timeStamp : Long,
      val color : Int,
